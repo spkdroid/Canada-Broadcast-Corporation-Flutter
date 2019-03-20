@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: appTitle,
       home: HomePage(title: appTitle),
       theme: ThemeData(
-        brightness: Brightness.light,
+        brightness: Brightness.dark,
         primaryColor: Colors.redAccent,
         accentColor: Colors.redAccent
       ),
