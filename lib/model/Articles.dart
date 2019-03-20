@@ -1,5 +1,3 @@
-
-
 import 'package:flutter_app/model/Source.dart';
 
 class Articles {
