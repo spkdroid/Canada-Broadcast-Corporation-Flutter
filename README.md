@@ -1,6 +1,13 @@
 # CBC News Reader
 
-This is an open source clone of CBC News Reader application developed with Flutter Framework
+This is an open source clone of CBC News Reader application developed with the Flutter Framework.
+
+<p align="center">
+  <img src="./iphone_screen_shot.png"
+       width="654" height="450">
+</p>
+
+
 
 ## Getting Started
 
