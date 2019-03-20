@@ -1,6 +1,6 @@
-# flutter_app
+# CBC News Reader
 
-A new Flutter application.
+This is an open source clone of CBC News Reader application developed with Flutter Framework
 
 ## Getting Started
 
