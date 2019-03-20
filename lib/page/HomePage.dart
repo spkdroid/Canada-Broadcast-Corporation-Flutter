@@ -16,12 +16,12 @@ class HomePage extends StatelessWidget {
         title: Text(title),
       ),
       body: FutureBuilder<List<Articles>>(
-        future: ApiService.fetchPhotos(http.Client()),
+        future: ApiService.fetchNewsArticles(http.Client()),
         builder: (context, snapshot) {
           if (snapshot.hasError) print(snapshot.error);
 
           return snapshot.hasData
-              ? NewsList(photos: snapshot.data)
+              ? NewsList(article: snapshot.data)
               : Center(child: CircularProgressIndicator());
         },
       ),

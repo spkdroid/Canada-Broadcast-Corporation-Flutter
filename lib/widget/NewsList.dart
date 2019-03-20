@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/model/Articles.dart';
 
 class NewsList extends StatelessWidget {
-  final List<Articles> photos;
+  final List<Articles> article;
 
-  NewsList({Key key, this.photos}) : super(key: key);
+  NewsList({Key key, this.article}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,8 +13,8 @@ class NewsList extends StatelessWidget {
 
       try {
         return ListTile(
-          title: Image.network(photos[index].urlToImage),
-          subtitle: Text(photos[index].description.toString()),
+          title: Image.network(article[index].urlToImage),
+          subtitle: Text(article[index].description.toString()),
         );
       } catch(e) {
 
