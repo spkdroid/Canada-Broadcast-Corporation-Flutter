@@ -24,8 +24,6 @@ class DetailPage extends StatelessWidget {
           child: new Text(information.url,style: TextStyle(color: Colors.blue,decoration: TextDecoration.underline),)
           ,onTap: () => launch(information.url),
         )
-            // Text(information.url,style: InkWell(fontFamily: url),)
-
       ])),
     );
   }
